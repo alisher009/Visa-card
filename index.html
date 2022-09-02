@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <div class="form">
+        <div class="log-in">
+            <form name="to_come_in">
+                <h1>Войти в аккаунт</h1>
+                <input class="enterInp" type="text" name="username" placeholder="User name">
+                <input class="enterInp" type="password" data-required="required" name="password" placeholder="Password">
+                <button>To come in</button>
+            </form>
+            <p  class="log-in"> Регистрация</b></p>
+        </div>
+
+        <div class="to-come-in">
+            <form action="" name="regist" >
+                <h1>Регистрация</h1>
+                <input type="text" name="email" placeholder="email">
+                <input type="text" name="name" placeholder="name">
+                <input type="text" name="surname" placeholder="surname (not neccessery)">
+                <input type="text" name="password" placeholder="password">
+                <button>Регистрация</button>
+            </form>
+            <p class="to-come-in">Войти в аккаунт</p>
+        </div>
+
+
+    </div> -->
+
+    <div class="form">
+            <div class="right-side">
+        <div class="to_come_in">
+            <form name="to_come_in">
+                <h1>Войти в аккаунт</h1>
+                <input type="text" name="username" placeholder="User name">
+                <input type="password" data-required="required" name="password" placeholder="Password">
+                <button>To come in</button>
+            </form>
+            <b class="log-in"> Регистрация</b>
+        </div>
+        <div class="log_in unactive">
+            <h1>Регистрация</h1>
+            <form name="log_in">
+                <input type="text" data-required="required" name="firstName" placeholder="First Name">
+                <input type="text" data-required="required" name="secondName" placeholder="Second Name">
+                <input type="text" name="username" placeholder="User name">
+                <input type="password" data-required="required" name="password" placeholder="Password">
+                <button>Log in</button>
+            </form>
+            <b class="to-come-in">Войти в аккаунт</b>
+        </div>
+    </div>
+    </div>
+
+    <div id="main" class="main">
+        <nav class="Card">
+            <header class="nav_card">
+                <div class="left">
+                    <a href="#">Главная</a>
+                    <a href="#">Мои кошельки</a>
+                    <a href="#">Мои транзакции</a>
+                </div>
+                <div class="right">
+                    <a class="email" href="#">alexadams@google.com</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FF0000" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                        <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                      </svg>
+                </div>
+            </header>
+        </nav>
+        <section class="info">
+            <h1 class="userInfo"> Добро пожаловать, Alex Adams!</h1>
+            <a class="email" href="#">alexadams@google.com</a>
+
+            <div class="block_Card">
+                <p class="Card_main">Мои кошельки</p>
+                <div class="card_cont">
+                    <div class="block_cart">
+                        <h2>VISA</h2>
+                        <span class="valuta">RUB</span>
+                    </div>
+                    <div class="block_cart">
+                        <h2>VISA</h2>
+                        <span class="valuta">RUB</span>
+                    </div>
+                    <div class="block_cart">
+                        <h2>VISA</h2>
+                        <span class="valuta">RUB</span>
+                    </div>
+                    <div class="block_cart">
+                        <h2>VISA </h2>
+                        <span class="valuta">RUB</span>
+                    </div>
+                </div>
+                <a class="all_card"  href="#">Смотреть все кошельки</a>
+            </div>
+            <div class="transactions">
+                <p class="a">Последние транзакции</p>
+                <div class="block_transactions">
+                    <div class="transactions_info">
+                        <div class="tra">
+
+                            <p>ID</p>
+                            <p>Отправлено с кошелька</p>
+                            <p>Категория </p>
+                            <p>Сумма транзации</p>
+                            <p>Когда</p>
+                        </div>
+                        <div class="trasact">
+                            <div class="atciya">
+                                <p>1232312</p>
+                                <p>VISA</p>
+                                <p>Автомобиль </p>
+                                <p>414,000,000</p>
+                                <p>4 дня назад</p>
+                            </div>
+                            <hr>
+                            <div class="atciya">
+                                <p>1232312</p>
+                                <p>VISA</p>
+                                <p>Автомобиль </p>
+                                <p>414,000,000</p>
+                                <p>4 дня назад</p>
+                            </div>
+                            <hr>
+                            <div class="atciya">
+                                <p>1232312</p>
+                                <p>VISA</p>
+                                <p>Автомобиль </p>
+                                <p>414,000,000</p>
+                                <p>4 дня назад</p>
+                            </div>
+                            <hr>
+                            <div class="atciya">
+                                <p>1232312</p>
+                                <p>VISA</p>
+                                <p>Автомобиль </p>
+                                <p>414,000,000</p>
+                                <p>4 дня назад</p>
+                            </div>
+                            <hr>
+                        </div>
+
+                    </div>
+                </div>
+                <a class="all_transactions"  href="#">Смотреть все кошельки</a>
+
+            </div>
+        </section>
+    </div>
+  
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
